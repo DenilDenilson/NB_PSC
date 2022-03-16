@@ -26,11 +26,11 @@
     <input class="outline-none pl-5 py-2 w-full rounded-[21px] border-[1px] border-[#C1C8FF]
     placeholder:text-[#C1C8FF] placeholder:font-light
     focus:invalid:border-[2px] focus:invalid:border-[#FF5162]
-    xl:min-w-[360px]" placeholder="Your email address..." type="email" required>
-    <p class="text-[#FF5162] text-center text-xs font-semibold pt-1 italic
+    xl:min-w-[360px]" id="input_email" placeholder="Your email address..." type="email" required>
+    <p class="text-[#FF5162] text-center text-xs font-semibold pt-1 italic invisible message_alert
     xl:absolute xl:left-6 xl:top-10">Please provide a valid email address</p>
     <button class="bg-[#4E61F2] h-[42px] w-full rounded-[21px] text-white text-sm font-semibold tracking-wider mt-5 shadow-lg shadow-[#C1C8FF]
-    xl:mt-0 xl:ml-5" type="submit">Notify Me</button>
+    xl:mt-0 xl:ml-5" id="submit_button" type="submit">Notify Me</button>
   </form>
   <div>
     <img class="mt-7 w-full max-w-[475px]
@@ -39,19 +39,19 @@
   <footer class="flex flex-col items-center mt-auto">
     <section class="flex justify-between w-48">
       <div class="w-[30px] h-[30px] border-[1px] border-[#969696] rounded-full grid place-content-center border-opacity-30 cursor-pointer
-      hover:bg-[#4E61F2]">
-        <svg class="w-[16px] h-[16px] fill-[#4E61F2]
-        hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+      hover:bg-[#4E61F2] hover:text-white contenedor_icon">
+        <ion-icon class="fill-[#4E61F2]
+        icon" name="logo-facebook"></ion-icon>
       </div>
       <div class="w-[30px] h-[30px] border-[1px] border-[#969696] rounded-full grid place-content-center border-opacity-30 cursor-pointer
-      hover:bg-[#4E61F2] hover:text-white">
+      hover:bg-[#4E61F2] hover:text-white contenedor_icon">
         <ion-icon class="fill-[#4E61F2]
-        hover:fill-white" name="logo-twitter"></ion-icon>
+         icon" name="logo-twitter"></ion-icon>
       </div>
       <div class="w-[30px] h-[30px] border-[1px] border-[#969696] rounded-full grid place-content-center border-opacity-30 cursor-pointer
-      hover:bg-[#4E61F2]">
+      hover:bg-[#4E61F2] hover:text-white contenedor_icon">
         <ion-icon class="fill-[#4E61F2]
-        hover:fill-white" name="logo-instagram"></ion-icon>
+         icon" name="logo-instagram"></ion-icon>
       </div>
     </section>
     <small class="text-xs text-[#969696] mt-5 mb-4

@@ -468,6 +468,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 .mt-\[3\.5rem\] {
   margin-top: 3.5rem;
 }
@@ -512,18 +520,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 30px;
 }
 
-.h-\[16px\] {
-  height: 16px;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.max-h-\[275px\] {
-  max-height: 275px;
-}
-
 .w-screen {
   width: 100vw;
 }
@@ -538,10 +534,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[30px\] {
   width: 30px;
-}
-
-.w-\[16px\] {
-  width: 16px;
 }
 
 .max-w-\[400px\] {
@@ -611,6 +603,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fill-\[\#4E61F2\] {
   fill: #4E61F2;
+}
+
+.fill-\[\#FFFFFF\] {
+  fill: #FFFFFF;
 }
 
 .px-4 {
@@ -738,10 +734,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(78 97 242 / var(--tw-bg-opacity));
 }
 
-.hover\:fill-white:hover {
-  fill: #fff;
-}
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -765,32 +757,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: relative;
   }
 
-  .xl\:left-0 {
-    left: 0px;
-  }
-
-  .xl\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .xl\:top-9 {
-    top: 2.25rem;
-  }
-
-  .xl\:top-10 {
-    top: 2.5rem;
-  }
-
-  .xl\:left-4 {
-    left: 1rem;
-  }
-
   .xl\:left-6 {
     left: 1.5rem;
   }
 
-  .xl\:mb-6 {
-    margin-bottom: 1.5rem;
+  .xl\:top-10 {
+    top: 2.5rem;
   }
 
   .xl\:mt-2 {
@@ -801,40 +773,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0px;
   }
 
-  .xl\:ml-2 {
-    margin-left: 0.5rem;
-  }
-
-  .xl\:ml-4 {
-    margin-left: 1rem;
-  }
-
   .xl\:ml-5 {
     margin-left: 1.25rem;
-  }
-
-  .xl\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .xl\:mt-16 {
     margin-top: 4rem;
   }
 
-  .xl\:h-auto {
-    height: auto;
-  }
-
-  .xl\:w-\[520px\] {
-    width: 520px;
-  }
-
-  .xl\:w-\[560px\] {
-    width: 560px;
-  }
-
-  .xl\:min-w-\[350px\] {
-    min-width: 350px;
+  .xl\:mb-6 {
+    margin-bottom: 1.5rem;
   }
 
   .xl\:min-w-\[360px\] {
@@ -845,14 +793,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 500px;
   }
 
-  .xl\:max-w-\[540px\] {
-    max-width: 540px;
-  }
-
-  .xl\:max-w-\[560px\] {
-    max-width: 560px;
-  }
-
   .xl\:max-w-\[620px\] {
     max-width: 620px;
   }
@@ -861,33 +801,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
-  .xl\:bg-\[\#4E61F2\] {
-    --tw-bg-opacity: 1;
-    background-color: rgb(78 97 242 / var(--tw-bg-opacity));
-  }
-
-  .xl\:fill-white {
-    fill: #fff;
-  }
-
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
-  .xl\:text-\[28px\] {
-    font-size: 28px;
-  }
-
-  .xl\:text-\[24px\] {
-    font-size: 24px;
-  }
-
   .xl\:text-\[22px\] {
     font-size: 22px;
-  }
-
-  .xl\:font-semibold {
-    font-weight: 600;
   }
 }
