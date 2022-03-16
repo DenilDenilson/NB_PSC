@@ -7,6 +7,9 @@ module.exports = {
     //"./*.{html, js}",
   ],
   theme: {
+    screen: {
+      'xl': '1440px',
+    },
     extend: {
       fontFamily: {
         'sans': ['Franklin', ...defaultTheme.fontFamily.sans],

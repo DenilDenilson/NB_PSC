@@ -516,6 +516,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 16px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .max-h-\[275px\] {
   max-height: 275px;
 }
@@ -540,18 +544,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16px;
 }
 
-.max-w-\[475px\] {
-  max-width: 475px;
-}
-
 .max-w-\[400px\] {
   max-width: 400px;
+}
+
+.max-w-\[475px\] {
+  max-width: 475px;
 }
 
 .scale-75 {
   --tw-scale-x: .75;
   --tw-scale-y: .75;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -693,12 +701,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.outline-2 {
-  outline-width: 2px;
-}
-
-.outline-\[\#C1C8FF\] {
-  outline-color: #C1C8FF;
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .placeholder\:font-light::-moz-placeholder {
@@ -726,4 +731,163 @@ Ensure the default browser behavior of the `hidden` attribute.
 .placeholder\:text-\[\#C1C8FF\]::placeholder {
   --tw-text-opacity: 1;
   color: rgb(193 200 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-\[\#4E61F2\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(78 97 242 / var(--tw-bg-opacity));
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.focus\:invalid\:border-\[2px\]:invalid:focus {
+  border-width: 2px;
+}
+
+.focus\:invalid\:border-\[\#FF5162\]:invalid:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 81 98 / var(--tw-border-opacity));
+}
+
+@media (min-width: 1280px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
+  .xl\:relative {
+    position: relative;
+  }
+
+  .xl\:left-0 {
+    left: 0px;
+  }
+
+  .xl\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .xl\:top-9 {
+    top: 2.25rem;
+  }
+
+  .xl\:top-10 {
+    top: 2.5rem;
+  }
+
+  .xl\:left-4 {
+    left: 1rem;
+  }
+
+  .xl\:left-6 {
+    left: 1.5rem;
+  }
+
+  .xl\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .xl\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .xl\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .xl\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .xl\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
+  .xl\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .xl\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .xl\:h-auto {
+    height: auto;
+  }
+
+  .xl\:w-\[520px\] {
+    width: 520px;
+  }
+
+  .xl\:w-\[560px\] {
+    width: 560px;
+  }
+
+  .xl\:min-w-\[350px\] {
+    min-width: 350px;
+  }
+
+  .xl\:min-w-\[360px\] {
+    min-width: 360px;
+  }
+
+  .xl\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
+  .xl\:max-w-\[540px\] {
+    max-width: 540px;
+  }
+
+  .xl\:max-w-\[560px\] {
+    max-width: 560px;
+  }
+
+  .xl\:max-w-\[620px\] {
+    max-width: 620px;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:bg-\[\#4E61F2\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(78 97 242 / var(--tw-bg-opacity));
+  }
+
+  .xl\:fill-white {
+    fill: #fff;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-\[28px\] {
+    font-size: 28px;
+  }
+
+  .xl\:text-\[24px\] {
+    font-size: 24px;
+  }
+
+  .xl\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .xl\:font-semibold {
+    font-weight: 600;
+  }
 }
