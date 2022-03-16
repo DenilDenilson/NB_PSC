@@ -18,8 +18,8 @@ A validation of a imput tipe email in JS and HTML, and all model was in Tailwind
 ### Desktop
 ![](https://i.imgur.com/jLwyjiT.png)
 ### Links
-- Solution URL: [--](https://github.com/DenilDenilson/NB_FormSimple "Repositorio")
-- Live site URL: [--](https://denildenilson.github.io/NB_FormSimple/ "Live site URL")
+- Solution URL: [https://github.com/DenilDenilson/NB_PSC](https://github.com/DenilDenilson/NB_PSC "Repositorio")
+- Live site URL: [https://denildenilson.github.io/NB_PSC/](https://denildenilson.github.io/NB_PSC/ "Live site URL")
 
 
 # My process
